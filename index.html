@@ -4,25 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Cinzel:700|Fauna+One" rel="stylesheet">
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
   <main>
     <section class="section intro">
-      <div class="container-div">
         <div class="fixed-header">
           <h1 class="name">Andrew Durrant</h1>
         </div>
         <div class="blurb"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe eveniet rerum commodi, sint corporis id, odio impedit illo laborum fugit sapiente! Reprehenderit, explicabo tenetur. Atque quasi sapiente placeat quo doloremque.</p></div>
-    </div>
     </section>
 
     <section class="section about-me">
-      <div class="container-div">
 
         <div class="tech">
-          <h2>TECH SKILLS</h2>
-          <ul>
+          <h2 class="tech-title">TECH SKILLS</h2>
+          <ul class="tech-list">
             <li><img class="html" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png"></li>
             <li><img class="css" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png"></li>
             <li><img class="jquery" src="media/jquery.png" alt=""></li>
@@ -36,16 +34,17 @@
           <p class="about-me-paragraph">I have always been fascinated by systems. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus atque delectus omnis expedita, deserunt fugiat. Totam inventore repellat nihil eligendi natus aliquam voluptate nemo et, sunt impedit perferendis laboriosam possimus?</p>
         </div>
 
-      </div>
     </section>
 
     <section class="section projects">
       <article id="bookmark-app" class="project-card">
         <div>
-          <img src="media/bookmark-app.png" alt="bookmark app screenshot">
+          <div class="image-box">
+            <img src="media/bookmark-app.png" alt="bookmark app screenshot">
+          </div>
           <p>An app to keep track of all of your favorite websites. This app brings a warmth one might feel in a cozy bookstore instead of the impersonal and cold world of a google drop down.</p>
         </div>
-        <div>
+        <div class="link-box">
           <a class="code-link" type="button">CODE</a>
           <a class="website-link" type="button">WEBSITE</a>
         </div>
@@ -54,9 +53,9 @@
     </section>
 
     <section class="section contact">
-      <div class="container-div">
+      <div class="form-div container-div">
         <h2 class="holla-at-your-boy" >Feel Free To Reach Out</h2>
-        <form action="">
+        <form action="" class="contact-form">
           <div>
             <label class="contact-labels" for="name">name</label>
             <input type="text">
@@ -66,8 +65,8 @@
             <input type="email">
           </div>
           <div>
-            <label class="contact-labels" for="message">Thoughts and Inquiries</label><br>
-            <textarea name="message" id="" cols="100" rows="10"></textarea>
+            <label class="contact-labels" for="message">Songs I Should Listen To</label><br>
+            <textarea name="message" id="" cols="87" rows="10"></textarea>
           </div>
           <button class="contact-submit" type="submit">SEND</button>
         </form>
