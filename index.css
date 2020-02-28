@@ -121,6 +121,7 @@ h1, h2, h3 {
 
 .projects {
   display: flex;
+  flex-direction: column;
 }
 
 .project-card {
@@ -129,6 +130,15 @@ h1, h2, h3 {
   height: fit-content;
   background-color: var(--main-color);
   border-radius: 91% 9% 95% 5% / 4% 97% 3% 96%;
+  box-shadow:
+  0 1.9px 3.8px rgba(0, 0, 0, 0.033),
+  0 4.4px 8.7px rgba(0, 0, 0, 0.046),
+  0 7.8px 15.7px rgba(0, 0, 0, 0.056),
+  0 13px 26px rgba(0, 0, 0, 0.066),
+  0 21.4px 42.9px rgba(0, 0, 0, 0.078),
+  0 37.4px 74.9px rgba(0, 0, 0, 0.096),
+  0 81px 162px rgba(0, 0, 0, 0.13)
+;
 }
 
 .image-box {
@@ -167,6 +177,7 @@ a:hover {
   margin: 0 auto;
   width: 80%;
   color: var(--main-print);
+  position: relative;
 }
 
 .container-div {
@@ -182,6 +193,10 @@ a:hover {
 .form-div {
   background-color: var(--main-splash-opaque);
   padding: 1rem;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .holla-at-your-boy {
