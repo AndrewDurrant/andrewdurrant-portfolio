@@ -64,7 +64,7 @@ h1, h2, h3 {
 
 .blurb {
   max-width: 20rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   background: var(--main-light); 
   padding: 4rem;
   margin-bottom: 3rem;
