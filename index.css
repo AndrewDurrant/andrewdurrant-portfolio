@@ -71,9 +71,11 @@ body {
 
 .tech {
   background-color: var(--main-dark);
-  width: 10rem;
-  padding: 2rem; 
+  color: var(--main-color);
+  width: 25rem;
+  padding: 4rem; 
   margin: 2rem;
+  border-radius: 47% 53% 45% 55% / 25% 7% 93% 75%;
 }
 
 .tech li {
@@ -89,8 +91,15 @@ body {
   background-color: var(--main-splash);
   width: 50rem;
   /* height: 10rem; */
-  padding: 2rem;
+  padding: 4rem;
   margin: 1rem;
+  font-size: 1.2rem;
+  border-radius: 23% 77% 5% 95% / 91% 7% 93% 9% ;
+
+}
+
+.bio-title {
+  color: var(--main-light)
 }
 
 .projects {
@@ -99,8 +108,8 @@ body {
 
 .project-card {
   padding: 1rem;
-  width: 80%;
-  height: 70vh;
+  width: 50%;
+  height: 50vh;
   background-color: var(--main-dark-lighter);
 }
 
