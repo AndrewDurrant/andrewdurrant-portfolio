@@ -4,16 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Andrew Durrant Portfolio</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Ubuntu:500,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CUbuntu:500,700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/f3f6e950df.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
   <nav class="navbar">
     <ul class="nav-links">
-      <li>
-        <a href="#hero">Home</a>
-      </li>
       <li>
         <a href="#about">About</a>
       </li>
@@ -28,9 +25,9 @@
 
   <main>
     <section class="section hero" id="hero">
-      <h1 class="name">Andrew Durrant</h1>
+      <h1 class="heading-primary">Andrew <br> Durrant</h1>
       <div class="headline">
-        <p>Welcome. I'm a fullstack web developer who likes creating things with music and code. Let's make something!
+        <p>Welcome. I'm a fullstack web developer who likes creating things with music and code. Let's collaborate!
         </p>
       </div>
     </section>
@@ -38,17 +35,28 @@
     <section class="section about-me" id="about">
       <article class="bio">
         <h2 class="bio-title heading-secondary">ABOUT ME</h2>
-        <p class="bio-paragraph"> Raised in an environment where music, art and the outdoors was an everyday occurrence has given me a life full of musical expression and adventure. My academic adventures led me down a path where I enjoyed working as a chemistry technician.</p>
-        <p class="bio-paragraph">But life is funny and some unforeseen circumstances led me down a different path where I discovered web development. Over the last year I have spent my time learning to code and have quickly become obsessed. Here is a medium that allows me to be involved in all of the things I find important: 
-        music, education and environmental science. There really is no limit to what I can create and solve with programming and that is exciting!</p>
+        <p class="bio-paragraph"> Raised in an environment where music, art and the outdoors was an everyday occurrence has given me a life full of musical expression, teamwork and adventure. My academic adventures led me down a path where I enjoyed working as a chemistry technician.</p>
+        <p class="bio-paragraph">But life is funny and some unforeseen circumstances led me down a different path where I discovered web development. Over the last year I have spent my time learning to code and have quickly become obsessed. Here's a medium that allows me to be involved in things I find important: music, education and environmental science. I'm looking forward to finding an awesome team to collaborate with. There really is no limit to what we can create and solve with programming and that's exciting!</p>
       </article>
       <article class="tech">
         <h2 class="tech-title heading-secondary">TECH SKILLS</h2>
         <ul class="tech-list">
-          <li><i class="fab fa-html5" alt="html5 logo"></i></li>
-          <li><i class="fab fa-css3-alt" alt="css3 logo"></i></li>
-          <li><i class="fab fa-js" alt="javascript logo"></i></li>
-          <li><i class="fab fa-react" alt="react logo"></i></li>
+          <li>
+            <i class="fab fa-html5" aria-hidden="true" title="html5"></i>
+            <span class="sr-only">html5</span>
+          </li>
+          <li>
+            <i class="fab fa-css3-alt" aria-hidden="true" title="css3"></i>
+            <span class="sr-only">css3</span>
+          </li>
+          <li>
+            <i class="fab fa-js" aria-hidden="true" title="javascript"></i>
+            <span class="sr-only">javascript</span>
+          </li>
+          <li>
+            <i class="fab fa-react" aria-hidden="true" title="react"></i>
+            <span class="sr-only">react</span>
+          </li>
         </ul>
       </article>
     </section>
@@ -65,8 +73,8 @@
           <p class="tech-paragraph">Tech: HTML5, CSS3, JavaScript, jQuery</p>
         </div>
         <div class="link-box">
-          <a class="code-link" type="button" href="https://github.com/thinkful-ei-macaw/andrewdurrant-bookmarks-app" target="_blank">CODE</a>
-          <a class="website-link" type="button" href="https://thinkful-ei-macaw.github.io/andrewdurrant-bookmarks-app/" target="_blank">WEBSITE</a>
+          <a class="code-link" href="https://github.com/thinkful-ei-macaw/andrewdurrant-bookmarks-app" target="_blank">CODE</a>
+          <a class="website-link" href="https://thinkful-ei-macaw.github.io/andrewdurrant-bookmarks-app/" target="_blank">WEBSITE</a>
         </div>
       </article>
 
@@ -81,8 +89,8 @@
           <p class="tech-paragraph">Tech: HTML5, CSS3, JavaScript</p>
         </div>
         <div class="link-box">
-          <a class="code-link" type="button" href="https://github.com/AndrewDurrant/tech-a-hike" target="_blank">CODE</a>
-          <a class="website-link" type="button" href="https://andrewdurrant.github.io/tech-a-hike/" target="_blank">WEBSITE</a>
+          <a class="code-link" href="https://github.com/AndrewDurrant/tech-a-hike" target="_blank">CODE</a>
+          <a class="website-link" href="https://andrewdurrant.github.io/tech-a-hike/" target="_blank">WEBSITE</a>
         </div>
       </article>
 
@@ -96,8 +104,8 @@
           <p class="tech-paragraph">Tech: HTML5, CSS3, JavaScript, jQuery</p>
         </div>
         <div class="link-box">
-          <a class="code-link" type="button" href="https://github.com/thinkful-ei-macaw/musicQuizApp-AndrewD" target="_blank">CODE</a>
-          <a class="website-link" type="button" href="https://thinkful-ei-macaw.github.io/musicQuizApp-AndrewD/" target="_blank">WEBSITE</a>
+          <a class="code-link" href="https://github.com/thinkful-ei-macaw/musicQuizApp-AndrewD" target="_blank">CODE</a>
+          <a class="website-link" href="https://thinkful-ei-macaw.github.io/musicQuizApp-AndrewD/" target="_blank">WEBSITE</a>
         </div>
       </article>
     </section>
@@ -110,15 +118,15 @@
         <form action="https://formspree.io/mjvrodrb" method="POST" class="contact-form">
           <div>
             <label class="contact-label" for="name">name</label>
-            <input type="text" name="name">
+            <input type="text" name="name" id="name" required>
           </div>
           <div>
-            <label class="contact-label" for="_replyto">email</label>
-            <input type="email" name="_replyto">
+            <label class="contact-label" for="email">email</label>
+            <input type="email" name="_replyto" id="email" required>
           </div>
           <div>
-            <label class="contact-label" for="message">Songs I Should Listen To</label><br>
-            <textarea name="message" cols="40" rows="4.20"></textarea>
+            <label class="contact-label" for="message">musical recommendation</label><br>
+            <textarea name="message" cols="40" rows="4" id="message" required></textarea>
           </div>
           <button class="contact-submit" type="submit">SEND</button>
         </form>
@@ -127,9 +135,9 @@
 
     <footer>
       <ul class="footer-list">
-        <li><a href="https://github.com/AndrewDurrant" target="_blank"><i class="fab fa-github"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/andrew-durrant-0069b746/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-        <li><a href="https://twitter.com/AndrewDurrant_" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://github.com/AndrewDurrant" target="_blank" aria-label="link to my GitHub"><i class="fab fa-github" aria-hidden="false"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/andrew-durrant-0069b746/" target="_blank" aria-label="link to my LinkedIn"><i class="fab fa-linkedin" aria-hidden="false"></i></a></li>
+        <li><a href="https://twitter.com/AndrewDurrant_" target="_blank" aria-label="link to my Twitter"><i class="fab fa-twitter" aria-hidden="false"></i></a></li>
       </ul>
     </footer>
   </main>
