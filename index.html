@@ -4,102 +4,121 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Andrew Durrant Portfolio</title>
-  <link href="https://fonts.googleapis.com/css?family=Cinzel:700|Fauna+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Ubuntu:500,700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f3f6e950df.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
+  <nav class="navbar">
+    <ul class="nav-links">
+      <li>
+        <a href="#hero">Home</a>
+      </li>
+      <li>
+        <a href="#about">About</a>
+      </li>
+      <li>
+        <a href="#projects">Projects</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
   <main>
-    <section class="section intro">
-        <div class="fixed-header">
-          <h1 class="name">Andrew Durrant</h1>
-        </div>
-        <div class="blurb"><p>Welcome. My personal culture is one of musicianship, environmental stewardship and the pursuit of making myself and the world I live in better in as many ways as possible. Let's do this!</p></div>
+    <section class="section hero" id="hero">
+      <h1 class="name">Andrew Durrant</h1>
+      <div class="headline">
+        <p>Welcome. I'm a fullstack web developer who likes creating things with music and code. Let's make something!
+        </p>
+      </div>
     </section>
 
-    <section class="section about-me">
-
-        <div class="tech">
-          <h2 class="tech-title">TECH SKILLS</h2>
-          <ul class="tech-list">
-            <li><img class="html" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png"></li>
-            <li><img class="css" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png"></li>
-            <li><img class="jquery" src="media/jquery.png" alt=""></li>
-            <li><img class="js" src="media/javascript.png" alt=""></li>
-            <li><img class="react" src="media/react.png" alt=""></li>
-          </ul>
-        </div>
-
-        <div class="bio">
-          <h2 class="bio-title">ABOUT ME</h2>
-          <p class="about-me-paragraph"> Raised in an environment where music, art and the outdoors was an everyday occurrence has given
-          me a life full of musical expression and adventure. Although I am deeply moved by music, 
-          nothing gives me the feels like mother nature which led me to attaining my B.S. in Ecology. 
-          Before my pursuit of web development I was employed as an Organic Chemistry Technician in Washington state. 
-          I provided state and city agencies along with local businesses an assurance that their water and soils were safe for 
-          consumption and agricultural production. 
-          A serious shoulder injury forced me to leave my job and for 6 months after surgery I spent my time learning to code.
-          I quickly became obsessed. Here was a medium that allowed me to be involved in all of the things I find important: 
-          Music, Education and Environmental Science. There really is no limit to what I can create and solve with programming and that is exciting!</p>
-        </div>
-
+    <section class="section about-me" id="about">
+      <article class="bio">
+        <h2 class="bio-title heading-secondary">ABOUT ME</h2>
+        <p class="bio-paragraph"> Raised in an environment where music, art and the outdoors was an everyday occurrence has given me a life full of musical expression and adventure. My academic adventures led me down a path where I enjoyed working as a chemistry technician.</p>
+        <p class="bio-paragraph">But life is funny and some unforeseen circumstances led me down a different path where I discovered web development. Over the last year I have spent my time learning to code and have quickly become obsessed. Here is a medium that allows me to be involved in all of the things I find important: 
+        music, education and environmental science. There really is no limit to what I can create and solve with programming and that is exciting!</p>
+      </article>
+      <article class="tech">
+        <h2 class="tech-title heading-secondary">TECH SKILLS</h2>
+        <ul class="tech-list">
+          <li><i class="fab fa-html5" alt="html5 logo"></i></li>
+          <li><i class="fab fa-css3-alt" alt="css3 logo"></i></li>
+          <li><i class="fab fa-js" alt="javascript logo"></i></li>
+          <li><i class="fab fa-react" alt="react logo"></i></li>
+        </ul>
+      </article>
     </section>
 
-    <section class="section projects">
+    <section class="section projects" id="projects">
       <article id="bookmark-app" class="project-card">
         <div>
+          <h3 class="heading-tertiary">Bookmark App</h3>
           <div class="image-box">
             <img src="media/bookmark-app.png" alt="bookmark app screenshot">
           </div>
-          <p>An app to keep track of all of your favorite websites. This app brings a warmth one might get in a cozy bookstore instead of the impersonal and cold feel of a google drop down.</p>
+          <p>An app to keep track of all of your favorite websites. This app brings a warmth one might get in a cozy bookstore instead of the impersonal and cold feel of a google drop down.
+          </p>
+          <p class="tech-paragraph">Tech: HTML5, CSS3, JavaScript, jQuery</p>
         </div>
         <div class="link-box">
-          <a class="code-link" type="button">CODE</a>
-          <a class="website-link" type="button">WEBSITE</a>
+          <a class="code-link" type="button" href="https://github.com/thinkful-ei-macaw/andrewdurrant-bookmarks-app" target="_blank">CODE</a>
+          <a class="website-link" type="button" href="https://thinkful-ei-macaw.github.io/andrewdurrant-bookmarks-app/" target="_blank">WEBSITE</a>
         </div>
       </article>
 
       <article id="tech-a-hike-app" class="project-card">
         <div>
+          <h3 class="heading-tertiary">Tech-A-Hike</h3>
           <div class="image-box">
             <img src="media/tech-a-hike.png" alt="tech-a-hike app screenshot">
           </div>
-          <p>This app is meant to help inspire you to step away from your code and get outside once in a while for a brain break. No matter which tech hub you call home we got you covered.</p>
+          <p>This app is meant to help inspire you to step away from your code and get outside once in a while for a brain break. No matter which tech hub you call home we got you covered.
+          </p>
+          <p class="tech-paragraph">Tech: HTML5, CSS3, JavaScript</p>
         </div>
         <div class="link-box">
-          <a class="code-link" type="button">CODE</a>
-          <a class="website-link" type="button">WEBSITE</a>
+          <a class="code-link" type="button" href="https://github.com/AndrewDurrant/tech-a-hike" target="_blank">CODE</a>
+          <a class="website-link" type="button" href="https://andrewdurrant.github.io/tech-a-hike/" target="_blank">WEBSITE</a>
         </div>
       </article>
 
       <article id="quiz-app" class="project-card">
         <div>
+          <h3 class="heading-tertiary">Music Trivia</h3>
           <div class="image-box">
             <img src="media/quiz-app.png" alt="quiz app screenshot">
           </div>
           <p>This app will help you hone your music trivia skills. Now you can dominate the next time you find yourself at your local watering hole's trivia night.</p>
+          <p class="tech-paragraph">Tech: HTML5, CSS3, JavaScript, jQuery</p>
         </div>
         <div class="link-box">
-          <a class="code-link" type="button">CODE</a>
-          <a class="website-link" type="button">WEBSITE</a>
+          <a class="code-link" type="button" href="https://github.com/thinkful-ei-macaw/musicQuizApp-AndrewD" target="_blank">CODE</a>
+          <a class="website-link" type="button" href="https://thinkful-ei-macaw.github.io/musicQuizApp-AndrewD/" target="_blank">WEBSITE</a>
         </div>
       </article>
     </section>
 
-    <section class="section contact">
-      <div class="form-div container-div">
-        <h2 class="holla-at-your-boy" >Feel Free To Reach Out</h2>
-        <form action="" class="contact-form">
+    <section class="section contact" id="contact">
+      <div class="form-div">
+        <h3 class="heading-tertiary">Feel Free To Reach Out</h3>
+        <span>Email me at: andrewrdurrant@gmail.com</span>
+        <span>Or fill out the form below.</span>
+        <form action="https://formspree.io/mjvrodrb" method="POST" class="contact-form">
           <div>
-            <label class="contact-labels" for="name">name</label>
-            <input type="text">
+            <label class="contact-label" for="name">name</label>
+            <input type="text" name="name">
           </div>
           <div>
-            <label class="contact-labels" for="email">email</label>
-            <input type="email">
+            <label class="contact-label" for="_replyto">email</label>
+            <input type="email" name="_replyto">
           </div>
           <div>
-            <label class="contact-labels" for="message">Songs I Should Listen To</label><br>
-            <textarea name="message" id="" cols="87" rows="10"></textarea>
+            <label class="contact-label" for="message">Songs I Should Listen To</label><br>
+            <textarea name="message" cols="40" rows="4.20"></textarea>
           </div>
           <button class="contact-submit" type="submit">SEND</button>
         </form>
@@ -108,9 +127,9 @@
 
     <footer>
       <ul class="footer-list">
-        <li><a href="https://github.com/AndrewDurrant">Github</a></li>
-        <li><a href="https://www.linkedin.com/in/andrew-durrant-0069b746/">LinkedIn</a></li>
-        <li><a href="https://twitter.com/AndrewDurrant_">Twitter</a></li>
+        <li><a href="https://github.com/AndrewDurrant" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/andrew-durrant-0069b746/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="https://twitter.com/AndrewDurrant_" target="_blank"><i class="fab fa-twitter"></i></a></li>
       </ul>
     </footer>
   </main>
