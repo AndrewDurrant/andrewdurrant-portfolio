@@ -286,6 +286,7 @@ img {
   color: var(--main-print);
   text-transform: uppercase;
   font-weight: 600;
+  font-size: 14px;
   transition: all .2s ease-in;
 }
 
@@ -391,6 +392,10 @@ input {
   .project-card {
     padding: 4rem;
     margin: 2rem 4rem;
+  }
+
+  .form-div a {
+    font-size: 1rem;
   }
 }
 
