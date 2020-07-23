@@ -156,6 +156,7 @@ main {
 
 .bio-title {
   text-align: right;
+  color: var(--main-print-light);
 }
 
 .bio-paragraph {
@@ -192,6 +193,10 @@ main {
 
 
 /* ***** PROJECTS ***** */
+
+.project-header {
+  color: var(--main-print-light);
+}
 
 .projects {
   /* display: flex;
