@@ -136,7 +136,7 @@ main {
 }
 
 .bio {
-  background-color: var(--main-print);
+  background-color: var(--main-splash);
   padding: 2rem;
   box-shadow: 0 0.6px 5.9px rgba(0, 0, 0, 0.013),
     0 1.5px 13.8px rgba(0, 0, 0, 0.018), 0 2.6px 24.8px rgba(0, 0, 0, 0.022),
@@ -192,7 +192,7 @@ main {
 .project-header {
   color: var(--main-print);
   position: absolute;
-  margin-bottom: 2rem;
+  margin: 3rem;
 }
 
 .projects {
