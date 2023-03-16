@@ -121,7 +121,6 @@ main {
   font-size: 1.4rem;
   line-height: 1.5;
   padding: 4rem;
-  border-radius: 23% 77% 51% 49% / 71% 34% 66% 29%;
   box-shadow: 0 0.6px 5.9px rgba(0, 0, 0, 0.013),
     0 1.5px 13.8px rgba(0, 0, 0, 0.018), 0 2.6px 24.8px rgba(0, 0, 0, 0.022),
     0 4.3px 41.1px rgba(0, 0, 0, 0.025), 0 7.1px 67.7px rgba(0, 0, 0, 0.03),
@@ -137,9 +136,8 @@ main {
 }
 
 .bio {
-  background-color: var(--main-splash);
+  background-color: var(--main-print);
   padding: 5rem 4rem;
-  border-radius: 23% 77% 5% 95% / 91% 7% 93% 9%;
   box-shadow: 0 0.6px 5.9px rgba(0, 0, 0, 0.013),
     0 1.5px 13.8px rgba(0, 0, 0, 0.018), 0 2.6px 24.8px rgba(0, 0, 0, 0.022),
     0 4.3px 41.1px rgba(0, 0, 0, 0.025), 0 7.1px 67.7px rgba(0, 0, 0, 0.03),
@@ -161,7 +159,6 @@ main {
   margin-top: 5rem;
   background-color: #feac9a;
   padding: 5rem;
-  border-radius: 47% 53% 45% 55% / 25% 7% 93% 75%;
   box-shadow: 0 0.6px 5.9px rgba(0, 0, 0, 0.013),
     0 1.5px 13.8px rgba(0, 0, 0, 0.018), 0 2.6px 24.8px rgba(0, 0, 0, 0.022),
     0 4.3px 41.1px rgba(0, 0, 0, 0.025), 0 7.1px 67.7px rgba(0, 0, 0, 0.03),
@@ -193,7 +190,7 @@ main {
 /* ***** PROJECTS ***** */
 
 .project-header {
-  color: var(--main-print-light);
+  color: var(--main-print);
   position: absolute;
   margin-bottom: 2rem;
 }
