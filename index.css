@@ -120,7 +120,7 @@ main {
   background: var(--main-light);
   font-size: 1.4rem;
   line-height: 1.5;
-  padding: 4rem;
+  padding: 2rem;
   box-shadow: 0 0.6px 5.9px rgba(0, 0, 0, 0.013),
     0 1.5px 13.8px rgba(0, 0, 0, 0.018), 0 2.6px 24.8px rgba(0, 0, 0, 0.022),
     0 4.3px 41.1px rgba(0, 0, 0, 0.025), 0 7.1px 67.7px rgba(0, 0, 0, 0.03),
@@ -137,7 +137,7 @@ main {
 
 .bio {
   background-color: var(--main-print);
-  padding: 5rem 4rem;
+  padding: 2rem;
   box-shadow: 0 0.6px 5.9px rgba(0, 0, 0, 0.013),
     0 1.5px 13.8px rgba(0, 0, 0, 0.018), 0 2.6px 24.8px rgba(0, 0, 0, 0.022),
     0 4.3px 41.1px rgba(0, 0, 0, 0.025), 0 7.1px 67.7px rgba(0, 0, 0, 0.03),
@@ -156,9 +156,9 @@ main {
 }
 
 .tech {
-  margin-top: 5rem;
+  margin-top: 2rem;
   background-color: #feac9a;
-  padding: 5rem;
+  padding: 1rem;
   box-shadow: 0 0.6px 5.9px rgba(0, 0, 0, 0.013),
     0 1.5px 13.8px rgba(0, 0, 0, 0.018), 0 2.6px 24.8px rgba(0, 0, 0, 0.022),
     0 4.3px 41.1px rgba(0, 0, 0, 0.025), 0 7.1px 67.7px rgba(0, 0, 0, 0.03),
@@ -380,7 +380,7 @@ input {
   }
 
   .bio {
-    padding: 6rem;
+    padding: 2rem;
   }
 
   .tech {
@@ -424,7 +424,7 @@ input {
   .headline {
     max-width: 30rem;
     font-size: 1.7rem;
-    padding: 5rem;
+    padding: 2rem;
   }
 
   .about-me {
@@ -439,7 +439,7 @@ input {
 
   .project-card {
     flex: 1 1 30%;
-    padding: 2rem 1rem;
+    padding: 1rem;
     margin: 1rem;
   }
 
