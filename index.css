@@ -19,12 +19,12 @@
 
 html {
   scroll-behavior: smooth;
-  background-color: var(--main-color);
+  background-color: var(--main-prrint-medium);
 }
 
 body {
   min-height: 100vh;
-  color: var(--main-color);
+  color: var(--main-print);
   font-family: 'Open Sans', sans-serif;
   background-repeat: no-repeat;
   background-attachment: fixed;
