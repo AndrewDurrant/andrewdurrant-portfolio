@@ -19,7 +19,7 @@
 
 html {
   scroll-behavior: smooth;
-  background-color: var(--main-print);
+  background-color: var(--main-print-light);
 }
 
 body {
