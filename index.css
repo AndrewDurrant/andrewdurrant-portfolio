@@ -19,14 +19,13 @@
 
 html {
   scroll-behavior: smooth;
-  background-color: var(--main-print-light);
+  background-color: var(--main-color);
 }
 
 body {
   min-height: 100vh;
-  color: var(--main-print);
+  color: var(--main-color);
   font-family: 'Open Sans', sans-serif;
-  background: url(media/Whangaehu.svg), rgba(1, 0, 48, 0.8);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
