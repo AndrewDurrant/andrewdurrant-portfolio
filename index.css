@@ -24,7 +24,7 @@ html {
 
 body {
   min-height: 100vh;
-  color: var(--main-dark);
+  color: var(--main-print);
   font-family: 'Open Sans', sans-serif;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -157,7 +157,7 @@ main {
 
 .tech {
   margin-top: 2rem;
-  background-color: #feac9a;
+  background-color: #fff;
   padding: 1rem;
   box-shadow: 0 0.6px 5.9px rgba(0, 0, 0, 0.013),
     0 1.5px 13.8px rgba(0, 0, 0, 0.018), 0 2.6px 24.8px rgba(0, 0, 0, 0.022),
@@ -172,9 +172,9 @@ main {
 }
 
 .tech-list {
-  /* display: flex;
-  flex-direction: column;
-  flex-wrap: wrap; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
   width: fit-content;
   margin: 0 auto;
   font-size: 3rem;
