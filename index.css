@@ -155,37 +155,6 @@ main {
   line-height: 1.4;
 }
 
-.tech {
-  margin-top: 2rem;
-  background-color: #fff;
-  padding: 1rem;
-  box-shadow: 0 0.6px 5.9px rgba(0, 0, 0, 0.013),
-    0 1.5px 13.8px rgba(0, 0, 0, 0.018), 0 2.6px 24.8px rgba(0, 0, 0, 0.022),
-    0 4.3px 41.1px rgba(0, 0, 0, 0.025), 0 7.1px 67.7px rgba(0, 0, 0, 0.03),
-    0 12.5px 118.4px rgba(0, 0, 0, 0.037), 0 27px 256px rgba(0, 0, 0, 0.05);
-}
-
-.tech-title {
-  text-align: center;
-  font-weight: bold;
-  font-size: 3rem;
-}
-
-.tech-list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; 
-  width: fit-content;
-  margin: 0 auto;
-  font-size: 3rem;
-  color: var(--main-print);
-}
-
-.icon {
-  width: 50%;
-  max-width: 10rem;
-  margin: 1rem auto;
-}
 
 /* ***** PROJECTS ***** */
 
