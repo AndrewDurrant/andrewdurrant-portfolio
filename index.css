@@ -116,7 +116,7 @@ main {
 }
 
 .headline {
-  max-width: 47rem;
+  max-width: 50rem;
   background: var(--main-light);
   font-size: 1.4rem;
   line-height: 1.5;
@@ -321,7 +321,7 @@ input {
   }
 
   .headline {
-    max-width: 30rem;
+    max-width: 40rem;
     font-size: 1.7rem;
     padding: 2rem;
   }
