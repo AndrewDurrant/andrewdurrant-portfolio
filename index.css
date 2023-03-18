@@ -11,7 +11,7 @@
   --main-splash: #f1b170;
   --main-print: #010030;
   --main-print-medium: #193f36;
-  --main-print-light: #fff;
+  --main-print-light: #FEFAE0;
   --main-splash-opaque: rgba(241, 177, 112, 0.9);
   --main-light-opaque: rgba(90, 206, 242, 0.9);
   --main-color-opaque: rgba(91, 231, 195, 0.9);
@@ -59,7 +59,7 @@ main {
 
 .heading-primary {
   font-size: 3.5rem;
-  color: var(--main-print-light);
+  color: var(--main-print-dark);
 }
 
 .heading-secondary,
