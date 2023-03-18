@@ -19,7 +19,7 @@
 
 html {
   scroll-behavior: smooth;
-  background-color: var(--main-color);
+  background-color: var(--main-print-light);
 }
 
 body {
@@ -146,7 +146,7 @@ main {
 
 .bio-title {
   text-align: right;
-  color: var(--main-print-light);
+  color: var(--main-print-dark);
 }
 
 .bio-paragraph {
